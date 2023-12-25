@@ -24,4 +24,3 @@ jobs:
         Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "P@ssw0rd!" -Force)
     - name: Create ngrok tunnel to remote desktop
       run: .\ngrok\ngrok.exe tcp 3389
-￼Enter
